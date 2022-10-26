@@ -4,12 +4,13 @@
 }
 #navbar {
   position: absolute;
-  height: 112px;
-  width: 80vw;
-  right: 0;
+  left: 20%;
+  right: 0%;
+  top: 0%;
+  bottom: 85.89%;
   background: #ffffff;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 0px;
+  height: 112px;
 }
 #allSubs {
   position: absolute;
@@ -55,8 +56,8 @@ div#categories {
   text-align: center;
 }
 #categories a .selected {
-  position:relative;
+  position: relative;
   width: 100%;
-  background: #FF4500;
+  background: #ff4500;
   bottom: 0%;
 }

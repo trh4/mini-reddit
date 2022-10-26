@@ -1,12 +1,15 @@
 import './normalize.css'
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
+import MainPosts from './components/MainPosts/MainPosts';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <h1> heydsadas</h1> */}
+      <MainPosts/>
+      <Sidebar/>
     </div>
   );
 }
